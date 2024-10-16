@@ -1,0 +1,101 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background-image: url("https://source.unsplash.com/1600x900/?healthcare,technology");
+  background-size: cover;
+  background-position: center;
+  background-color: #058789;
+  
+}
+
+.features {
+  background-color: #f8f9fa;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    
+}
+
+.button{
+  background-color: #058789;
+  color: white;
+}
+
+.cd{
+  height: 530px;
+}
+
+
+footer {
+  background-color: #058789;
+  color: #f8f9fa;
+}
+
+footer .text-warning {
+  color: #ffc107 !important;
+}
+
+footer a {
+  color: #f8f9fa;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer .btn-floating {
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 10px;
+}
+
+footer .btn-floating:hover {
+  background-color: #ffc107;
+}
+
+
+.faq-item {
+  margin-bottom: 30px;
+}
+
+.faq-item h5 {
+  color: #343a40;
+}
+
+.faq-item p {
+  color: #6c757d;
+  font-size: 16px;
+}
+.shadow2{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+h2{
+  text-decoration:underline;
+}

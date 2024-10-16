@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChainCare - User Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="media/logo.jpg" class="mr-3" alt="" width="50" height="50">
+        <a class="navbar-brand" href="#">ChainCare</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="features.html">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contect.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Registration Form -->
+   
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-6 shadow">
+              <h2 class="text-center text-primary mb-4">Registration Form</h2>
+              <form id="registrationForm">
+                <div class="row">
+                  <div class="col-md-6 mb-3 form-group"  >
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Enter your name"
+                      name=""
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3 form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Enter your email"
+                      name=""
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="mb-3 form-group">
+                  <label for="address" class="form-label">Address</label>
+                  <textarea
+                    class="form-control"
+                    id="address"
+                    rows="3"
+                    placeholder="Enter your address"
+                    name=""
+                    required
+                  ></textarea>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-3 form-group">
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="mobile"
+                      placeholder="Enter your mobile number"
+                      name=""
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3 form-group">
+                    <label for="pin" class="form-label">Pin Code</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="pin"
+                      placeholder="Enter your pin code"
+                      name=""
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-3 form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="Enter password"
+                      name=""
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3 form-group">
+                    <label for="confirm-password" class="form-label"
+                      >Confirm Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="confirm-password"
+                      placeholder="Confirm password"
+                      name=""
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <button type="submit" class="btn btn-primary btn-block mb-3 button">Register</button>
+                </div>
+                <div class=" text-center">
+                    <p>Already have an account? <a href="login.html">Login here</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+    <!-- Footer -->
+    <footer class=" text-light pt-3 pb-3 mt-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <!-- About Section -->
+          <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">ChainCare</h5>
+            <p>ChainCare is a decentralized healthcare platform using Web3 technologies to provide secure, transparent, and patient-centric services.</p>
+          </div>
+    
+         
+    
+          <!-- Contact -->
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+            <p><i class="fas fa-home mr-3"></i> Ratnagiri, Bhopal, Madhya Pradresh</p>
+            <p><i class="fas fa-envelope mr-3"></i> anveshsahu15@chaincare.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 9555571078</p>
+            <p><i class="fas fa-print mr-3"></i> +91 7489171419</p>
+          </div>
+        </div>
+    
+        <!-- Social Media -->
+        <div class="row align-items-center mt-4">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-center text-md-left">© 2024 ChainCare - All Rights Reserved</p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <ul class="list-unstyled list-inline text-center text-md-right">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-light"><i class="fa-brands fa-facebook"></i></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-light"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-light"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-light"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+  
+  
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
